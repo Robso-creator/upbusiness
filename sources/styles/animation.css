@@ -1,0 +1,11 @@
+@keyframes delay1 {
+    to {
+        background-color: #9b94e4;
+    }
+}
+
+@keyframes delay2 {
+    to {
+        color: #9b94e4;
+    }
+}
