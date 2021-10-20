@@ -14,7 +14,7 @@ body{
 nav {
     position: absolute;
     right: 50px;
-    top: 24px;
+    top: 32px;
 }
 
 nav a {
@@ -33,7 +33,7 @@ nav li {
     font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 29px;
 
     color: #7C76BB;
@@ -102,7 +102,7 @@ nav .book:hover {
 #business img {
     position: relative;
     height: 400%;
-    right: -120%;
+    right: -150%;
     top: -250px
     
 }
@@ -120,15 +120,25 @@ nav .book:hover {
     background-color: #ffffff;
     border: 3px solid #7C76BB;
     border-radius: 7px;
+
     
+    
+}
+
+#bussiness a:hover{
+    padding: 10px 32px;
+    background-color: #ffffff;
+    border: 3px solid #7C76BB;
+    border-radius: 7px;
+    box-shadow: 0 0 .5em #7C76BB;
 }
 
 
 /* Brands */
 #brands{
     position: absolute;
-    top: 600px;
-    padding: 100px;
+    top: 550px;
+    padding: 220px;
 
 }
 
@@ -142,7 +152,7 @@ nav .book:hover {
 
     display: flex;
     justify-content: center;
-    margin-bottom: 32px;
+    margin-bottom: 36px;
 
 }
 
