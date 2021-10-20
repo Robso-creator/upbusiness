@@ -1,3 +1,7 @@
+body{
+    min-width: 1440px;
+}
+
 .logo {
     position: absolute;
     left: 48px;
@@ -28,8 +32,8 @@ nav li {
 
     font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
+    font-weight: 600;
+    font-size: 16px;
     line-height: 29px;
 
     color: #7C76BB;
@@ -47,7 +51,7 @@ nav li:hover {
 nav .book {
     color: #ffffff;
     background-color: #7C76BB;
-    padding: 16px;
+    padding: 10px 16px;
     border-radius: 12px;
 }
 
@@ -62,21 +66,22 @@ nav .book:hover {
     position: absolute;
     width: 695px;
     height: 345px;
-    top: 100px;
+    padding: 100px;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
 }
 
 #business h1 {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-style: normal;
     font-size: 80px;
     line-height: 90px;
     width: 700px;
  
     color: #7C76BB;
 
-    position: absolute;
-    left: 60px;
-    top: 130px;
+    position: relative;
+   
+    top: 100px;
 
 }
 
@@ -84,24 +89,68 @@ nav .book:hover {
     color: #FF87B0;
 }
 
-#business img {
-    position: absolute;
-    width: 850px;
-    height: 600px;
-    right: -650px;
-}
-
 #business p{
-    font-family: 'Source Sans Pro', sans-serif;
-    font-style: normal;
-    font-size: 19px;
-    line-height: 32px;
+    font-size: 20px;
+    line-height: 26px;
     width: 550px;
 
-    position: absolute;
-    top: 330px;
-    left: 60px;
+    position: relative;
+    top: 150px;
+ 
+}
 
+#business img {
+    position: relative;
+    height: 400%;
+    right: -120%;
+    top: -250px
     
+}
+
+#business a {
+    position: relative;
+    top: 200px;
+   
+
+    font-size: 26px;
+    font-weight: 600;
+    color: #7C76BB;
     
+    padding: 10px 32px;
+    background-color: #ffffff;
+    border: 3px solid #7C76BB;
+    border-radius: 7px;
+    
+}
+
+
+/* Brands */
+#brands{
+    position: absolute;
+    top: 600px;
+    padding: 100px;
+
+}
+
+
+#brands p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 600;
+    color: #7C76BB;
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+
+}
+
+#brands img{
+    display: flex;
+ 
+    justify-content: center;
+    align-items: center;
+
+    width: 1100px;
 }
